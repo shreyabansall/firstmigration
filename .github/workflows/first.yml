@@ -20,5 +20,5 @@ jobs:
       uses: actions/checkout@v2
 
       -name: step two
-      run: "Get-ChildItem Env: | Sort_Object name"
-      
+      run: "Get-ChildItem Env: | Sort_Object Name"
+
