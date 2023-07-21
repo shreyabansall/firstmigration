@@ -4,7 +4,7 @@ on:
 jobs:
    job1:
     name: First Job
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: step one
         uses: actions/checkout@v3
