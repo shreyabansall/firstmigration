@@ -4,7 +4,7 @@ on:
 jobs:
    job1:
     name: First Job
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: step one
         uses: actions/checkout@v3
@@ -14,7 +14,7 @@ jobs:
 
    job2:
     name: Second Job
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: step one
         uses: actions/checkout@v3
